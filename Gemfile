@@ -8,6 +8,9 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+
+gem "kramdown-parser-gfm"
+
 gem "jekyll", "~> 3.9.0"
 
 gem "jekyll-theme-hydejack", "~> 9.1"
@@ -24,7 +27,9 @@ gem "jekyll-theme-hydejack", "~> 9.1"
 #    For details, see <https://github.com/kramdown/math-katex#documentation>
 #
 # If you're using the MathJax math engine instead, free to remove the line below:
+
 gem "kramdown-math-katex"
+
 
 # A JavaScript runtime for ruby that helps with running the katex gem above.
 gem "duktape"
